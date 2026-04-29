@@ -1,0 +1,182 @@
+patient_id,primary_tumor_site,pT_stage,pN_stage,grading,hpv_association_p16,number_of_positive_lymph_nodes,number_of_resected_lymph_nodes,perinodal_invasion,lymphovascular_invasion_L,vascular_invasion_V,perineural_invasion_Pn,resection_status,resection_status_carcinoma_in_situ,carcinoma_in_situ,closest_resection_margin_in_cm,histologic_type,infiltration_depth_in_mm
+102,Larynx,pT4a,pN2b,G3,not_tested,2.0,47,yes,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,
+104,Oropharynx,pT1,pN3,G2,negative,4.0,31,yes,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-Keratinizing,
+111,Oral_Cavity,pT2,NX,G2,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,11.0
+113,Oropharynx,pT2,pN2c,G3,negative,3.0,27,no,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,
+114,Oropharynx,pT3,pN2,hpv_association_p16,positive,3.0,37,yes,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,20.0
+117,Larynx,pT1,NX,G2,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-NonKeratinizing,0.5
+121,Oropharynx,pT2,pN1,G3,negative,1.0,46,no,yes,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,10.0
+122,Larynx,pT2,pN0,G2,not_tested,0.0,26,,no,no,no,R0,Ris0,yes,,SCC_Conventional-Keratinizing,8.0
+123,Larynx,pT3,pN2b,G3,not_tested,2.0,27,no,yes,no,yes,R0,Ris0,yes,0.3,SCC_Conventional-NonKeratinizing,
+125,Hypopharynx,pT1,pN2b,G2,not_tested,4.0,46,yes,yes,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,
+128,Oral_Cavity,pT1,pN0,G2,not_tested,0.0,17,,no,no,no,R1,Ris0,yes,0,SCC_Conventional-Keratinizing,3.0
+130,Oral_Cavity,pT2,pN1,G1,not_tested,1.0,37,no,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,16.0
+133,Oral_Cavity,pT4a,pN2b,G3,not_tested,3.0,32,yes,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-NonKeratinizing,13.0
+135,Oral_Cavity,pT3,pN0,G3,not_tested,0.0,15,,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,12.0
+136,Larynx,pT4a,pN1,G3,not_tested,1.0,56,no,no,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,
+139,Oropharynx,pT3,pN2c,hpv_association_p16,positive,2.0,54,no,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,5.0
+140,Larynx,pT1a,NX,G2,not_tested,,0,,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-Keratinizing,4.0
+141,Oropharynx,pT2,pN2c,hpv_association_p16,positive,7.0,22,yes,yes,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,16.0
+144,Larynx,pT2,pN1,G2,not_tested,1.0,30,no,no,no,yes,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,21.0
+149,Hypopharynx,pT4a,pN1,G3,not_tested,1.0,66,no,no,no,yes,R0,Ris0,yes,,,
+151,Oropharynx,pT1,pN0,hpv_association_p16,positive,0.0,12,,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-NonKeratinizing,4.0
+152,Larynx,pT4b,pN2c,G3,not_tested,25.0,42,,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,
+153,Oropharynx,pT3,pN1,hpv_association_p16,positive,3.0,20,yes,yes,no,no,R0,CIS Absent,no,<0.1,SCC_Basaloid,
+157,Oral_Cavity,pT3,pN2a,G3,not_tested,1.0,49,yes,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,13.0
+159,Oropharynx,pT3,pN2b,hpv_association_p16,positive,4.0,64,yes,no,no,no,R0,CIS Absent,no,0.1,SCC_Basaloid,15.0
+162,Oropharynx,pT1,NX,G3,negative,,0,,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-NonKeratinizing,4.0
+167,Oropharynx,pT3,pN2b,G2,negative,2.0,27,no,yes,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,23.0
+168,Larynx,pT1a,pN0,G2,not_tested,0.0,16,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,1.0
+171,Larynx,pT1a,pN1,G3,not_tested,1.0,4,no,no,no,no,R0,CIS Absent,no,,SCC_Conventional-NonKeratinizing,7.0
+174,Larynx,pT1,pN0,G2,not_tested,0.0,2,,yes,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,5.0
+175,Oral_Cavity,pT3,pN0,G1,not_tested,0.0,23,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,2.0
+179,Oral_Cavity,pT1,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.4,SCC_Conventional-NonKeratinizing,4.0
+183,Larynx,pT1,NX,G2,not_tested,,0,,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,1.0
+185,Oral_Cavity,pT3,pN3b,G3,not_tested,9.0,49,yes,yes,no,yes,R0,Ris0,no,0.4,SCC_Conventional-Keratinizing,12.0
+187,Larynx,pT3,pN0,G3,not_tested,0.0,29,,no,no,yes,R0,Ris0,no,<0.1,SCC_Conventional-NonKeratinizing,6.0
+189,Hypopharynx,pT3,pN1,G3,not_tested,1.0,26,no,yes,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,12.0
+192,Oral_Cavity,pT2,pN1,G3,not_tested,1.0,14,no,no,no,yes,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,15.0
+193,Oropharynx,pT3,NX,G2,negative,,0,,no,no,no,RX,CIS Absent,no,,SCC_Conventional-Keratinizing,3.0
+208,Hypopharynx,pT1,pN3b,G3,not_tested,3.0,38,no,yes,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-NonKeratinizing,3.0
+209,Oropharynx,pT2,NX,hpv_association_p16,positive,,0,no,no,no,no,R1,CIS Absent,no,0,SCC_Basaloid,12.0
+211,Hypopharynx,pT4a,pN0,G3,not_tested,0.0,40,,yes,yes,no,R0,CIS Absent,no,<0.1,SCC_Basaloid,
+212,Oropharynx,pT3,pN0,G3,negative,0.0,30,,no,no,no,R0,CIS Absent,no,0.5,SCC_Sarcomatoid,5.0
+214,Oropharynx,pT2,pN3,hpv_association_p16,positive,12.0,25,yes,yes,no,no,R1,CIS Absent,no,0,SCC_Basaloid,7.0
+216,Larynx,pT1,NX,G1,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.1,,
+228,Hypopharynx,pT1,pN3,G3,not_tested,2.0,10,yes,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-NonKeratinizing,
+233,Oropharynx,pT1,NX,G2,negative,,0,,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-NonKeratinizing,1.0
+234,Hypopharynx,pT2,pN3b,G3,not_tested,2.0,20,yes,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,3.0
+238,Oropharynx,pT1,NX,hpv_association_p16,positive,,0,,no,no,no,R1,Ris0,yes,0,SCC_Basaloid,2.0
+243,Oral_Cavity,pT3,pN0,G2,not_tested,0.0,21,,no,no,no,R0,Ris0,no,0.6,SCC_Conventional-Keratinizing,12.0
+247,Oral_Cavity,pT1,NX,G1,not_tested,,0,,no,no,no,R0,CIS Absent,no,<0.1,,1.0
+253,Larynx,pT4a,pN2a,G3,not_tested,1.0,36,yes,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,
+255,Larynx,pT4a,pN0,G2,not_tested,0.0,8,,no,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,16.0
+261,Oral_Cavity,pT1,pN3b,G1,not_tested,6.0,18,,no,no,yes,R0,CIS Absent,no,1.1,SCC_Conventional-Keratinizing,8.0
+262,Larynx,pT3,pN2a,G2,not_tested,1.0,47,yes,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,
+269,Hypopharynx,pT3,pN1,G2,not_tested,1.0,30,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,
+274,Oral_Cavity,pT1,pN2b,G2,not_tested,2.0,13,no,no,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,1.5
+276,Oropharynx,pT4a,pN2a,G3,negative,1.0,40,yes,no,no,no,R0,Ris0,yes,0.1,SCC_Conventional-Keratinizing,17.0
+280,Larynx,pT1a,NX,G1,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,5.0
+284,Hypopharynx,pT4a,pN2c,G2,not_tested,3.0,51,yes,yes,no,yes,R1,Ris0,yes,0,SCC_Conventional-Keratinizing,45.0
+287,Oropharynx,pT1,pN2b,G2,negative,9.0,53,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,1.0
+290,Oral_Cavity,pT2,pN2a,G3,not_tested,1.0,58,no,no,no,no,R0,Ris0,yes,,SCC_Conventional-Keratinizing,3.0
+292,Oropharynx,pT4a,pN0,G3,negative,0.0,31,,no,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,24.0
+295,Oral_Cavity,pT4a,pN3,G3,not_tested,2.0,19,no,no,yes,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,15.0
+298,Oropharynx,pT4a,pN3,G3,negative,5.0,19,yes,yes,yes,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,
+301,Larynx,pT2,pN2c,G2,not_tested,6.0,50,yes,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,12.0
+311,Oral_Cavity,pT2,pN2c,G2,not_tested,2.0,26,,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,9.0
+312,Larynx,pT3,pN1,G3,not_tested,1.0,43,no,no,no,yes,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,10.0
+314,Hypopharynx,pT3,pN3,G2,not_tested,13.0,55,yes,yes,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,6.0
+315,Larynx,pT2,pN2c,G3,not_tested,3.0,32,yes,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-Keratinizing,10.0
+318,Larynx,pT1a,NX,G2,not_tested,,0,,no,no,no,R0,CIS Absent,no,,,
+320,Oral_Cavity,pT3,NX,G3,not_tested,,0,,yes,no,no,R0,Ris0,no,0.5,SCC_Basaloid,11.0
+321,Oropharynx,pT2,pN1,G2,negative,1.0,24,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,
+324,Hypopharynx,pT2,NX,G3,not_tested,,0,,yes,no,no,R0,Ris0,yes,0.5,SCC_Conventional-NonKeratinizing,7.0
+325,Oral_Cavity,pT1,pN1,G2,not_tested,1.0,39,no,no,no,no,R0,CIS Absent,no,0.4,SCC_Conventional-Keratinizing,5.0
+333,Larynx,pT1,pN2b,G3,not_tested,2.0,26,no,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,4.0
+334,Oropharynx,pT3,NX,G3,negative,,0,,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,15.0
+346,Oropharynx,pT3,pN0,G2,negative,0.0,10,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,4.0
+349,Oropharynx,pT1,pN3,G3,negative,1.0,19,yes,no,yes,no,R0,CIS Absent,no,0.5,SCC_Basaloid,
+351,Larynx,pT2,pN1,G3,not_tested,1.0,36,no,no,no,yes,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,
+352,Oropharynx,pT3,pN3b,G3,negative,3.0,43,no,no,no,no,R0,CIS Absent,no,0.3,SCC_Basaloid,11.0
+358,Oropharynx,pT2,pN2a,G2,negative,1.0,58,no,no,no,no,R0,Ris0,yes,0.1,SCC_Conventional-NonKeratinizing,10.0
+373,Oropharynx,pT1,pN3b,G3,negative,5.0,36,yes,yes,yes,no,R1,Ris0,yes,0,SCC_Basaloid,
+374,Oral_Cavity,pT3,pN2a,G2,not_tested,1.0,12,yes,no,no,no,R0,Ris0,yes,0.1,SCC_Conventional-Keratinizing,5.0
+384,Hypopharynx,pT3,NX,G2,not_tested,,0,,yes,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,8.0
+385,Oropharynx,pT3,pN1,G3,negative,1.0,46,no,no,no,yes,R0,CIS Absent,no,0.2,SCC_Conventional-Keratinizing,12.0
+386,Larynx,pT1b,NX,G3,not_tested,,0,,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,
+388,Oral_Cavity,pT2,pN2b,G2,not_tested,11.0,41,yes,no,no,yes,R0,CIS Absent,no,0.3,SCC_Conventional-Keratinizing,8.0
+390,Oropharynx,pT1,pN1,hpv_association_p16,positive,1.0,52,no,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,8.0
+392,Larynx,pT2,pN0,G1,not_tested,0.0,21,,no,no,no,R0,CIS Absent,no,0.6,,1.0
+393,Hypopharynx,pT3,pN2b,G3,not_tested,3.0,37,no,yes,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,6.0
+394,Oral_Cavity,pT3,pN2c,G3,not_tested,3.0,39,yes,no,no,yes,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,13.0
+399,Oropharynx,pT3,NX,hpv_association_p16,positive,,0,,no,no,no,R0,CIS Absent,no,0.3,SCC_Basaloid,
+400,Oropharynx,pT2,pN1,hpv_association_p16,positive,2.0,18,no,no,no,no,R0,CIS Absent,no,<0.1,SCC_Basaloid,9.0
+402,Oral_Cavity,pT1,pN0,G3,not_tested,0.0,47,,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,
+403,Oropharynx,pT1,pN1,G3,negative,1.0,33,no,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-NonKeratinizing,3.0
+410,Oropharynx,pT2,pN0,hpv_association_p16,positive,0.0,42,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,6.0
+415,Oropharynx,pT4b,pN3,hpv_association_p16,positive,12.0,49,yes,yes,yes,no,R1,CIS Absent,no,0,SCC_Basaloid,
+418,Oral_Cavity,pT1,pN1,G3,not_tested,1.0,12,no,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,6.0
+429,Larynx,pT1,NX,G2,not_tested,,0,,no,no,no,R0,Ris0,yes,,SCC_Conventional-Keratinizing,3.0
+430,Oropharynx,pT3,pN0,hpv_association_p16,positive,0.0,26,,no,yes,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,7.0
+434,Hypopharynx,pT1,pN2,G3,not_tested,16.0,27,yes,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,
+439,Oropharynx,pT4a,pN2b,G3,negative,3.0,35,yes,yes,yes,yes,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,25.0
+459,Oropharynx,pT1,pN2c,G3,negative,2.0,46,no,no,no,no,R0,Ris0,yes,0.5,SCC_Basaloid,11.0
+462,Hypopharynx,pT3,pN0,G2,not_tested,0.0,54,,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Basaloid,15.0
+464,Oropharynx,pT1,pN1,G2,negative,1.0,15,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,5.0
+466,Hypopharynx,pT2,pN3,G2,not_tested,2.0,27,yes,yes,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,10.0
+470,Oropharynx,pT2,pN0,G2,negative,0.0,45,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-NonKeratinizing,1.0
+475,Oropharynx,pT2,pN2a,hpv_association_p16,positive,1.0,49,no,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,11.0
+483,Hypopharynx,pT4a,pN1,G2,not_tested,1.0,22,yes,no,no,no,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,17.0
+484,CUP,TX,pN2c,G3,negative,6.0,42,yes,no,no,yes,R1,CIS Absent,no,0,SCC_Basaloid,6.0
+494,Oral_Cavity,pT2,pN1,G2,not_tested,1.0,16,no,yes,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,17.0
+500,Hypopharynx,pT2,pN2c,G3,not_tested,4.0,31,no,no,no,no,R0,Ris0,yes,<0.1,SCC_Basaloid,11.0
+501,Hypopharynx,pT3,pN3b,G3,not_tested,4.0,47,yes,yes,yes,no,R0,Ris0,yes,,SCC_Basaloid,10.0
+502,Larynx,pT3,NX,G2,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,
+509,Oral_Cavity,pT4a,pN2b,G2,not_tested,3.0,40,yes,no,yes,yes,R0,CIS Absent,no,0.4,SCC_Conventional-Keratinizing,16.0
+510,Hypopharynx,pT1,pN2c,G3,not_tested,26.0,45,yes,yes,no,yes,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,4.0
+512,Oropharynx,pT4a,pN1,G2,negative,1.0,24,no,yes,no,no,R0,Ris0,yes,,,
+517,Hypopharynx,pT2,pN2a,G3,not_tested,1.0,45,,no,no,no,R0,CIS Absent,no,0.5,SCC_Basaloid,6.0
+527,Hypopharynx,pT1,pN0,G2,not_tested,0.0,12,,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,4.0
+528,Larynx,pT4a,pN1,G2,not_tested,1.0,40,no,yes,no,no,R0,Ris0,yes,,SCC_Conventional-Keratinizing,35.0
+531,Oropharynx,pT2,NX,G1,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.5,Mucoepidermoid_Carcinoma,
+539,Larynx,pT2,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,0.1,SCC_Conventional-NonKeratinizing,5.0
+542,Oropharynx,pT3,pN2c,G2,negative,5.0,26,yes,yes,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,
+555,Oropharynx,pT3,pN2c,G3,negative,38.0,93,yes,yes,yes,yes,R0,CIS Absent,no,0.5,SCC_Basaloid,16.0
+558,Oropharynx,pT1,pN0,G3,negative,0.0,28,,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,5.0
+559,Oropharynx,pT2,pN1,hpv_association_p16,positive,2.0,39,no,no,no,no,R0,CIS Absent,no,<0.1,SCC_Basaloid,18.0
+570,Oropharynx,pT4b,pN2c,hpv_association_p16,positive,10.0,29,yes,yes,no,yes,R2,CIS Absent,no,0,SCC_Conventional-NonKeratinizing,
+576,Oropharynx,pT3,pN1,G2,negative,1.0,45,no,no,no,no,R0,Ris0,yes,0.5,SCC_Basaloid,8.0
+583,Oropharynx,pT4a,pN2c,G3,negative,6.0,55,yes,no,no,yes,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,11.0
+584,Oropharynx,pT2,pN0,G2,negative,0.0,36,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,13.0
+588,Oral_Cavity,pT3,pN2b,G3,not_tested,2.0,20,no,yes,no,yes,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,13.0
+590,Oral_Cavity,pT2,pN2c,G3,not_tested,3.0,19,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,9.0
+595,Larynx,pT2,pN0,G3,not_tested,0.0,22,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,
+604,Larynx,pT4a,pN2b,G2,not_tested,4.0,33,no,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,17.0
+606,Hypopharynx,pT1,NX,G3,not_tested,,0,,no,no,no,R0,Ris0,no,0.5,SCC_Conventional-Keratinizing,3.0
+607,Hypopharynx,pT2,NX,G2,not_tested,,0,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,20.0
+608,Hypopharynx,pT4a,pN2c,G3,not_tested,2.0,57,yes,no,no,no,R0,Ris0,yes,0.5,SCC_Basaloid,22.0
+613,Oral_Cavity,pT4a,pN0,G3,not_tested,0.0,25,,no,no,yes,R0,Ris0,no,0.5,SCC_Basaloid,
+614,Oropharynx,pT3,pN2a,G2,negative,1.0,36,no,no,no,yes,R0,CIS Absent,no,0.2,SCC_Basaloid,17.0
+615,Larynx,pT1,pN2a,G3,not_tested,1.0,57,no,yes,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,7.0
+616,Oropharynx,pT3,pN2a,G3,negative,1.0,19,yes,no,no,no,R0,Ris0,no,0.5,SCC_Conventional-Keratinizing,12.0
+617,Larynx,pT2,pN3b,G3,not_tested,2.0,52,yes,no,no,no,R0,Ris0,yes,<0.1,SCC_Basaloid,
+625,Larynx,pT4a,pN2c,G2,not_tested,14.0,40,yes,yes,no,no,R0,CIS Absent,no,0.3,SCC_Conventional-Keratinizing,
+626,Oral_Cavity,pT2,pN0,G2,not_tested,0.0,28,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,5.0
+627,Oropharynx,pT1,pN2b,hpv_association_p16,positive,9.0,20,yes,no,no,no,R1,Ris0,yes,0,SCC_Basaloid,5.0
+630,Larynx,pT1,NX,G3,not_tested,,0,,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,3.5
+631,Larynx,pT4a,pN3b,G3,not_tested,6.0,52,yes,yes,no,no,R0,Ris0,yes,,SCC_Conventional-NonKeratinizing,
+640,Larynx,pT4a,pN2c,G3,not_tested,2.0,43,yes,yes,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,
+642,Hypopharynx,pT1,pN0,G3,not_tested,0.0,30,,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,1.0
+644,Oropharynx,pT3,pN3,G3,negative,1.0,45,yes,no,no,yes,R0,CIS Absent,no,0.1,SCC_Conventional-Keratinizing,25.0
+647,Larynx,pT4a,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,8.0
+649,Oral_Cavity,TX,pN1,G2,not_tested,1.0,34,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-NonKeratinizing,
+650,Hypopharynx,pT2,pN2b,G2,not_tested,2.0,24,yes,no,no,no,R0,Ris0,yes,,SCC_Conventional-Keratinizing,3.0
+651,Larynx,pT3,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,10.0
+655,Larynx,pT3,pN2c,G3,not_tested,2.0,32,no,no,no,yes,R0,CIS Absent,no,0.1,SCC_Basaloid,
+658,Oral_Cavity,pT2,pN0,G3,not_tested,0.0,25,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,8.0
+660,Oral_Cavity,pT2,pN0,G2,not_tested,0.0,17,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,6.0
+661,Oropharynx,pT2,pN2a,G3,negative,1.0,51,no,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Acantholytic,8.0
+662,Hypopharynx,pT2,pN0,G3,not_tested,0.0,45,,no,no,no,R0,CIS Absent,no,<0.1,SCC_Basaloid,12.0
+664,Oropharynx,pT1,pN2,hpv_association_p16,positive,3.0,5,yes,no,no,no,R0,CIS Absent,no,0.1,SCC_Basaloid,3.0
+669,Larynx,pT1a,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-NonKeratinizing,2.5
+670,Hypopharynx,TX,NX,G2,not_tested,,0,,no,no,no,RX,Ris0,yes,,SCC_Conventional-Keratinizing,
+676,Oral_Cavity,pT1,NX,G2,not_tested,,0,,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-Keratinizing,2.0
+688,Oral_Cavity,pT3,pN3b,G2,not_tested,1.0,31,yes,no,no,yes,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,12.0
+691,Larynx,pT1,NX,G3,not_tested,,0,,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,4.0
+693,Larynx,pT1,pN2c,G3,not_tested,2.0,15,no,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,2.0
+695,Hypopharynx,pT4a,pN2b,G3,not_tested,2.0,39,no,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,7.0
+699,Oral_Cavity,pT1,pN0,G1,not_tested,0.0,13,,no,no,no,R0,Ris0,yes,0.5,SCC_Conventional-Keratinizing,5.0
+703,Oral_Cavity,pT4a,pN1,G2,not_tested,1.0,17,,no,no,no,RX,CIS Absent,no,,SCC_Conventional-Keratinizing,
+704,Oral_Cavity,pT3,pN2b,G2,not_tested,33.0,17,,no,no,no,R0,CIS Absent,no,<0.1,SCC_Conventional-Keratinizing,
+707,Oropharynx,pT3,pN2b,G3,negative,2.0,65,yes,no,no,no,R0,Ris0,yes,0.2,SCC_Conventional-NonKeratinizing,16.0
+709,Oral_Cavity,pT3,pN1,G2,not_tested,1.0,22,no,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,
+711,Larynx,pT3,pN3b,G3,not_tested,1.0,18,yes,no,no,no,R0,CIS Absent,no,,SCC_Conventional-Keratinizing,5.0
+712,Oropharynx,pT4a,pN2,hpv_association_p16,positive,3.0,31,yes,yes,no,yes,R0,Ris0,yes,<0.1,SCC_Conventional-Keratinizing,14.0
+715,Oropharynx,pT1,pN2a,G3,negative,1.0,27,yes,no,no,no,R1,Ris0,yes,0,SCC_Basaloid,4.0
+717,Oropharynx,pT2,pN3,G3,negative,3.0,41,yes,yes,no,no,R0,CIS Absent,no,0.2,SCC_Lymphoepithelial,
+722,Hypopharynx,pT3,pN2c,G2,not_tested,4.0,28,yes,yes,no,yes,R0,Ris0,yes,,SCC_Conventional-Keratinizing,10.0
+732,Oropharynx,pT2,NX,G3,negative,,0,,no,no,no,R1,CIS Absent,no,0,SCC_Conventional-Keratinizing,7.0
+736,Oropharynx,pT3,pN2b,G3,negative,6.0,40,yes,yes,no,no,R0,CIS Absent,no,0.5,SCC_Basaloid,42.0
+746,Oropharynx,pT2,pN3b,hpv_association_p16,positive,1.0,26,yes,no,no,no,R0,CIS Absent,no,0.5,SCC_Conventional-Keratinizing,8.0
+757,Larynx,pT1,pN0,G3,not_tested,0.0,24,,no,no,no,R0,Ris0,yes,,SCC_Basaloid,
