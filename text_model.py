@@ -2,10 +2,15 @@ import json
 import numpy as np
 import pandas as pd
 import tensorflow as tf
+import matplotlib.pyplot as plt 
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.utils.class_weight import compute_class_weight
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+
+import os
+os.makedirs("Figures", exist_ok=True)
 
 CLINICAL_PATH = "StructuredData/clinical_data.json"
 PATHOLOGICAL_PATH = "StructuredData/pathological_data.json"
@@ -149,7 +154,7 @@ hpv_weights = compute_class_weight(
 hpv_class_weight = dict(zip(hpv_classes.tolist(), hpv_weights.tolist()))
 sample_weights = np.array([hpv_class_weight[label] for label in y_tr["hpv_out"]])
 
-# ─Model
+# Model
 inputs = tf.keras.Input(shape=(X_tr.shape[1],))
 
 x = tf.keras.layers.Dense(64, activation="relu")(inputs)
@@ -195,7 +200,7 @@ callbacks = [
 ]
 
 # Training
-model.fit(
+history = model.fit(
     X_tr,
     [y_tr["hpv_out"], y_tr["site_out"], y_tr["grade_out"]],
     validation_data=(X_val, [y_val["hpv_out"], y_val["site_out"], y_val["grade_out"]]),
@@ -206,15 +211,105 @@ model.fit(
     verbose=1,
 )
 
+#Plotting Figures and Graphs 
+#Training vs Validation Loss 
+plt.figure(figsize=(8, 5))
+plt.plot(history.history["loss"], label="Train Loss")
+plt.plot(history.history["val_loss"], label="Validation Loss")
+plt.xlabel("Epoch")
+plt.ylabel("Loss")
+plt.title("Training vs Validation Loss")
+plt.legend()
+plt.grid(True)
+plt.savefig("Figures/text_loss.png", bbox_inches = "tight")
+
+#Training and Validation Accuracy
+tasks = ["hpv_out", "site_out", "grade_out"]
+
+for task in tasks:
+    plt.figure(figsize=(8, 5))
+
+    plt.plot(
+        history.history[f"{task}_accuracy"],
+        label=f"{task} Train Accuracy",
+    )
+
+    plt.plot(
+        history.history[f"val_{task}_accuracy"],
+        label=f"{task} Validation Accuracy",
+    )
+
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.title(f"{task} Accuracy")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(f"Figures/text_{task}_accuracies.png", bbox_inches = "tight")
+    
+# Confusion Matrices
+preds = model.predict(X_test)
+
+task_info = {
+    "hpv_out": {
+        "idx": 0,
+        "encoder": "hpv_association_p16",
+    },
+    "site_out": {
+        "idx": 1,
+        "encoder": "primary_tumor_site",
+    },
+    "grade_out": {
+        "idx": 2,
+        "encoder": "grading",
+    },
+}
+
+for task_name, info in task_info.items():
+
+    y_pred = np.argmax(preds[info["idx"]], axis=1)
+    y_true = y_test[task_name]
+
+    cm = confusion_matrix(y_true, y_pred)
+
+    fig, ax = plt.subplots(figsize=(7, 7))
+
+    disp = ConfusionMatrixDisplay(
+        confusion_matrix=cm,
+        display_labels=encoders[info["encoder"]].classes_,
+    )
+
+    disp.plot(ax=ax, cmap="Blues", values_format="d")
+
+    plt.title(f"{task_name} Confusion Matrix")
+    plt.xticks(rotation=45)
+    plt.savefig(f"Figures/text_{task_name}_confusion.png", bbox_inches = "tight")
+    
 # Evaluation
 def evaluate_model(model, X, y_true):
     results = model.evaluate(X, y_true, verbose=0)
     print("\nTest Results:")
     for name, val in zip(model.metrics_names, results):
         print(f"  {name}: {val:.4f}")
+    
+    return dict(zip(model.metrics_names, results))
+
+test_results = evaluate_model(model, X_test, y_test)
 
 
-evaluate_model(model, X_test, y_test)
+#Statistics and Results
+print("\n Accuracies and Loss")
+for task in ["hpv_out", "site_out", "grade_out"]:
+
+    train_acc = history.history[f"{task}_accuracy"][-1]
+    val_acc = history.history[f"val_{task}_accuracy"][-1]
+
+    print(f"\n{task}")
+    print(f"  Final Train Accuracy: {train_acc:.4f}")
+    print(f"  Final Val Accuracy:   {val_acc:.4f}")
+
+print()
+print(f"Train Loss: {history.history['loss'][-1]:.4f}")
+print(f"Val Loss:   {history.history['val_loss'][-1]:.4f}")
 
 model.save("text_model.keras")
 print("\nModel saved successfully.")
