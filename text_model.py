@@ -206,7 +206,6 @@ model.fit(
     verbose=1,
 )
 
-
 # Evaluation
 def evaluate_model(model, X, y_true):
     results = model.evaluate(X, y_true, verbose=0)
@@ -217,5 +216,5 @@ def evaluate_model(model, X, y_true):
 
 evaluate_model(model, X_test, y_test)
 
-model.save("multimodal_fusion_json.keras")
+model.save("text_model.keras")
 print("\nModel saved successfully.")
