@@ -2,7 +2,7 @@
 
 
 ## Project Description
-This repository implements and benchmarks multimodal fusion strategies for head and neck cancer classification using the HANCOCK dataset. We train a multi-task neural network that simultaneously predicts three clinically relevant targets (HPV association, primary tumor site, and tumor grading) from two complementary modalities: structured clinical, pathological, and blood data, and free-text surgery reports encoded via Bio_ClinicalBERT. Five model configurations are compared: a tabular unimodal baseline, a text unimodal baseline, two late fusion variants (weighted probability averaging and a learned meta-classifier), and an end-to-end attention-based fusion model that learns per-patient modality weights. The goal is to evaluate whether multimodal integration meaningfully improves classification performance over single-modality models, and whether adaptive attention-based fusion outperforms simpler combination strategies.
+A multimodal deep learning pipeline that combines structured clinical data and surgery report text from the HANCOCK head and neck cancer dataset to predict HPV status, primary tumor site, and tumor grading, comparing unimodal baselines against late fusion and attention-based fusion strategies.
 
 ## Repository Structure
 project/
