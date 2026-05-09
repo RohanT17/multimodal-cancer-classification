@@ -6,12 +6,12 @@ A multimodal deep learning pipeline that combines structured clinical data and s
 
 ## Repository Structure
 project/
-|-- README.md 
-|-- requirements.txt 
-|-- data
-|-- src
-|-- experiments
-|-- results
+|-- README.md <br>
+|-- requirements.txt <br>
+|-- data<br>
+|-- src<br>
+|-- experiments<br>
+|-- results<br>
 
 ## Environment Setup
 pip install -r requirements.txt
