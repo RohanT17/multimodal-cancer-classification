@@ -18,6 +18,6 @@ pip install -r requirements.txt
 For the Google Colab files run each code box Tumor_Classification_Images.ipynb
 For vscode files run in terminal python text_model.py
 
-## Dataset Setup
+## Runtime and Hardware 
 
 
