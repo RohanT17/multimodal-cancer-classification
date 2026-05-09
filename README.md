@@ -5,13 +5,13 @@
 A multimodal deep learning pipeline that combines structured clinical data and surgery report text from the HANCOCK head and neck cancer dataset to predict HPV status, primary tumor site, and tumor grading, comparing unimodal baselines against late fusion and attention-based fusion strategies.
 
 ## Repository Structure
-project/
-|-- README.md <br>
-|-- requirements.txt <br>
-|-- data<br>
-|-- src<br>
-|-- experiments<br>
-|-- results<br>
+project/\
+|-- README.md \
+|-- requirements.txt \
+|-- data \
+|-- src \
+|-- experiments \
+|-- results \
 
 ## Environment Setup
 pip install -r requirements.txt
