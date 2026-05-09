@@ -18,6 +18,7 @@ For the Google Colab files run each code box Tumor_Classification_Images.ipynb \
 For vscode files run in terminal python text_model.py
 
 ## Runtime and Hardware 
-VScode text_model.py runtime : 68.14 seconds
+VScode text_model.py runtime : 68.14 seconds \
+Tumor_Classification_Images.ipynb 25 mins T4-gpu google colab
 
 
