@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import os
+import time 
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -10,7 +12,7 @@ from sklearn.utils.class_weight import compute_class_weight
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from sklearn.dummy import DummyClassifier
 
-import os
+start_time = time.perf_counter()
 
 os.makedirs("Figures", exist_ok=True)
 
@@ -407,3 +409,6 @@ for i, task in enumerate(["HPV", "Site", "Grade"]):
         f"Baseline = {baseline:.4f}, "
         f"Improvement = {improvement:+.4f}"
     )
+    
+end_time = time.perf_counter()
+print(f"\nTOTAL RUNTIME: {end_time - start_time:.2f} seconds")
