@@ -72,10 +72,6 @@ print("Merged dataset shape:", df.shape)
 
 df["grading"] = df["grading"].replace("hpv_association_p16", "G_unknown")
 
-print("\n=== Target classes after fix ===")
-for col in TARGETS:
-    print(f"  {col}: {sorted(df[col].dropna().unique().tolist())}")
-
 df = df.dropna(subset=TARGETS)
 print(f"\nShape after dropna on targets: {df.shape}")
 
@@ -108,7 +104,7 @@ for col in TARGETS:
     y_train_enc[col] = le.transform(y_train_raw[col].astype(str))
     y_test_enc[col] = le.transform(y_test_raw[col].astype(str))
     encoders[col] = le
-    print(f"{col}: {len(le.classes_)} classes --> {list(le.classes_)}")
+    # print(f"{col}: {len(le.classes_)} classes --> {list(le.classes_)}")
 
 # Feature Engineering ++++++++++++++++++++++++++++++++++++++++++++++++
 X_train = pd.get_dummies(X_train_raw, dummy_na=False)
@@ -123,7 +119,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train).astype(np.float32)
 X_test = scaler.transform(X_test).astype(np.float32)
 
-print(f"\nFeature matrix shape: {X_train.shape}")
+# print(f"\nFeature matrix shape: {X_train.shape}")
 
 # Validation Split +++++++++++++++++++++++++++++++++++++++++++++++++++
 train_sub_idx, val_idx = train_test_split(
