@@ -11,7 +11,7 @@ project/\
 |-- data \
 |-- src \
 |-- experiments \
-|-- results \
+|-- results 
 
 ## Environment Setup
 pip install -r requirements.txt
