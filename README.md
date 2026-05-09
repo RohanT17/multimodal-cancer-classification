@@ -10,7 +10,6 @@ project/\
 |-- requirements.txt \
 |-- data \
 |-- src \
-|-- experiments \
 |-- results 
 
 ## Environment Setup
